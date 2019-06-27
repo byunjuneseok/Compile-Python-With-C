@@ -160,8 +160,8 @@ id(300)							# 4612495024
 
 
 ## 참고
-[Python 공식문서 내장함수](https://docs.python.org/ko/3/library/functions.html#id)
-[모호한 파이썬 튜토리얼, Call by what?](https://item4.github.io/2015-07-18/Some-Ambiguousness-in-Python-Tutorial-Call-by-What/)
-[기초 파이썬 파이썬의 모든 것은 Object이다 (정수편)](https://ahracho.github.io/posts/python/2017-05-01-everything-in-python-is-object-integer/)
-[Why Python is Slow: Looking Under the Hood](http://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/)
+* [Python 공식문서 내장함수](https://docs.python.org/ko/3/library/functions.html#id)
+* [모호한 파이썬 튜토리얼, Call by what?](https://item4.github.io/2015-07-18/Some-Ambiguousness-in-Python-Tutorial-Call-by-What/)
+* [기초 파이썬 파이썬의 모든 것은 Object이다 (정수편)](https://ahracho.github.io/posts/python/2017-05-01-everything-in-python-is-object-integer/)
+* [Why Python is Slow: Looking Under the Hood](http://jakevdp.github.io/blog/2014/05/09/why-python-is-slow/)
 
