@@ -28,6 +28,8 @@ Cython은 C라이크한 정적 타이핑을 지원하고, C로 구현된 함수�
 
 1. [Hello World](./hello)
 2. [Fibonacci(`def` vs `cdef` vs `cpdef`)](./fibonacci)
+3. [Attach numpy.(*Work in progress*)](./numpy)
+4. Class (*Work in progress*)
 
-*Work in progress*
+
 
