@@ -1,6 +1,8 @@
+
+
 # Fibonacci (`def` vs `cdef` vs `cpdef`)
 
-- def` : "Basically, it's python!"
+- `def` : "Basically, it's python!"
 - `cdef` : "Basically, it's C!"
 - `cpdef` : "It's Both."
 
@@ -68,4 +70,22 @@ $ python3 comparison.py
 | `cyfibonacci.fib_int(30)` | 0.0829 |17.63|
 | **`cyfibonacci.fib_cdef(30)`** | 0.0047 |1.00|
 | `cyfibonacci.fib_cpdef(30)` | 0.0249 |5.29|
+
+
+
+## 코드 블록 분석을 위한 Cython 애너테이션
+
+```Bash
+$ cython -a cyfibonacci.pyx
+```
+
+위의 명령을 실행하면 `cyfibonacci.html` 파일이 생성된다. 그 파일을 브라우저로 확인해보면 아래와 같다.
+
+
+
+![screenshot_cythonfn](./assets/screenshot_cythonfn.png)
+
+코드의 각 줄을 누르면 생성된 C코드를 확인할 수 있다. 짙은 노란색은 파이썬 가상머신에서 더 많이 실행됐다는 것을 나타낸다. 옅은 노란색일 수록 파이썬이 아닌 C코드가 더 많음을 나타낸다. **노란색 코드를 가능한 줄여서 옅은 색이 더 많아지도록 하는 것이 목표가 된다.** 반복문 안에서의 노란색 줄을 해결하는 것이 의미가 훨씬 크다.
+
+
 
