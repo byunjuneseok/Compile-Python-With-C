@@ -26,7 +26,6 @@ Cython은 C라이크한 정적 타이핑을 지원하고, C로 구현된 함수�
 
 ## Contents
 
-1. Hello World. [링크](./hello/README.md)
+1. [Hello World](./hello)
 
    *Work in progress.*
-
